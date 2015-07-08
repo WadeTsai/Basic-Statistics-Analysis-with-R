@@ -1,0 +1,36 @@
+---
+title: "Chapter 01: R Intro"
+author: "蔡有為"
+date: "2015年7月8日"
+output: html_document
+---
+##What is R?##
+1. R in Wikipedia: <https://zh.wikipedia.org/wiki/R%E8%AF%AD%E8%A8%80>
+2. What is R?: <http://www.r-project.org/about.html> / <http://www.revolutionanalytics.com/what-r>
+3. R Consortium: <http://www.linuxfoundation.org/news-media/announcements/2015/06/linux-foundation-announces-r-consortium-support-millions-users>
+4. R at Microsoft: <http://www.slideshare.net/RevolutionAnalytics/r-at-microsoft>
+
+##R的學習資源##
+1. 中華R軟體學會: <http://www.r-software.org/home/learn>
+2. Taiwan R User Group(每周一晚上有MLDM Monday聚會): <http://www.meetup.com/Taiwan-R/>
+3. R軟體使用者論壇: <https://groups.google.com/forum/#!forum/taiwanruser>
+4. Youtube R演習室: <https://www.youtube.com/watch?v=STcIxf_vUWY&list=PL5AC0ADBF65924EAD>
+5. 金門大學陳鍾誠老師R教材: <http://ccckmit.wikidot.com/r:main> / <http://ccckmit.wikidot.com/st:main>
+6. DataCamp - Introduction to R: <https://www.datacamp.com/courses/free-introduction-to-r>
+7. Code School - Try R: <http://tryr.codeschool.com>
+8. 台大資訊系統訓練班 - R 程式設計班: <https://www.csie.ntu.edu.tw/train/?page=course_info.html&courseid=1239>
+
+##R軟體下載##
+1. 下載Revolution R Open: <http://mran.revolutionanalytics.com/download/#download> (Software & Math Library(提升效能))
+2. 下載R Studio: <https://www.rstudio.com/products/rstudio/download>
+
+##安裝後的簡單測試##
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r}
+plot(cars)
+```
