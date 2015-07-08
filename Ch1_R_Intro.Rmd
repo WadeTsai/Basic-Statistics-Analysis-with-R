@@ -12,14 +12,15 @@ output: html_document
 
 ##R的學習資源##
 1. 中華R軟體學會: <http://www.r-software.org/home/learn>
-2. Taiwan R User Group(每周一晚上有MLDM Monday聚會): <http://www.meetup.com/Taiwan-R/>
+2. Taiwan R User Group(每周一晚上有MLDM Monday聚會): <http://www.meetup.com/Taiwan-R> <span style="color:red;">**開眼界**</span>
 3. R軟體使用者論壇: <https://groups.google.com/forum/#!forum/taiwanruser>
-4. Youtube R演習室: <https://www.youtube.com/watch?v=STcIxf_vUWY&list=PL5AC0ADBF65924EAD>
+4. Youtube R演習室: <https://www.youtube.com/watch?v=STcIxf_vUWY&list=PL5AC0ADBF65924EAD> <span style="color:red;">**速成**</span>
 5. 金門大學陳鍾誠老師R教材: <http://ccckmit.wikidot.com/r:main> / <http://ccckmit.wikidot.com/st:main>
-6. DataCamp - Introduction to R: <https://www.datacamp.com/courses/free-introduction-to-r>
-7. Code School - Try R: <http://tryr.codeschool.com>
-8. 台大資訊系統訓練班 - R 程式設計班: <https://www.csie.ntu.edu.tw/train/?page=course_info.html&courseid=1239>
-9. 30 天精通 Git 版本控管: <https://github.com/doggy8088/Learn-Git-in-30-days>
+6. Code School - Try R: <http://tryr.codeschool.com> <span style="color:red;">**強烈推薦**</span>
+7. DataCamp - Introduction to R: <https://www.datacamp.com/courses/free-introduction-to-r>
+8. Getting Started with R: <http://mran.revolutionanalytics.com/documents/getting-started/#begin>
+9. 台大資訊系統訓練班 - R 程式設計班: <https://www.csie.ntu.edu.tw/train/?page=course_info.html&courseid=1239>
+10. 30 天精通 Git 版本控管: <https://github.com/doggy8088/Learn-Git-in-30-days>
 
 ##R軟體下載##
 1. 下載Revolution R Open: <http://mran.revolutionanalytics.com/download/#download> (both Software & Math Library)
