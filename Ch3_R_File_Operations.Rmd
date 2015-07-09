@@ -1,0 +1,35 @@
+---
+title: "Chapter 03: R File Operations"
+author: "蔡有為"
+date: "2015年7月9日"
+output: html_document
+---
+
+##R如何匯入資料檔##
+1. 使用內建資料，下例使用Anderson's Iris data set (https://zh.wikipedia.org/wiki/%E5%AE%89%E5%BE%B7%E6%A3%AE%E9%B8%A2%E5%B0%BE%E8%8A%B1%E5%8D%89%E6%95%B0%E6%8D%AE%E9%9B%86)
+```{r}
+data("iris") #將iris資料集載入Global Environment成為一個DataFrame
+iris #列出iris資料集的所有欄位和每一筆資料
+```
+
+2. 匯入CSV
+```{r}
+mydataset <- read.csv("c:/users/Wade/OneDrive/Statistics/RealEstate/A_lvr_land_A.csv") #匯入台北市房地產時價登錄的CSV檔，並置入名為mydataset的dataframe中
+```
+
+3. 匯入SPSS (.sav)(read.spss函式不支援中文，如果遇到.sav檔中有中文則必須要從SPSS中匯出成CSV後再從R把CSV匯入)
+```{r}
+#install.packages("foreign") #如果之前沒有安裝過，要先安裝foreign套件
+require(foreign) #載入foreign套件
+mydataset <- read.spss("c:/users/Wade/OneDrive/Statistics/基礎統計分析/SPSS_SAV/3.2.sav") #使用foreign套件中的read.spss函式讀取侯老師提供的3.2.sav資料檔
+```
+
+4. 匯入Excel (.xlsx)(read.xlsx的效能不好，建議從Excel先轉成CSV後再匯入R)
+```{r}
+#install.packages("xlsx") #如果之前沒有安裝過，要先安裝xlsx套件
+require(xlsx)
+mydataset <- read.xlsx("c:/users/Wade/OneDrive/Statistics/MSFT.xlsx", sheetIndex = 1) #使用xlsx套件中的read.xlsx函式讀取Excel檔案中的第一個工作表
+```
+
+##R如何匯出資料檔##
+1. 

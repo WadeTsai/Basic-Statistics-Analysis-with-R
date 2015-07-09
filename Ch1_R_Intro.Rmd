@@ -24,16 +24,14 @@ output: html_document
 
 ##R軟體下載##
 1. 下載Revolution R Open: <http://mran.revolutionanalytics.com/download/#download> (both Software & Math Library)
-2. 下載R Studio: <https://www.rstudio.com/products/rstudio/download>
+2. 下載RStudio: <https://www.rstudio.com/products/rstudio/download>
 3. 下載GitHub Desktop(optional): <https://windows.github.com> or <https://mac.github.com>
 
 ##安裝後的簡單測試##
 ```{r}
-summary(cars)
+summary(cars) #列出cars資料集的概要
 ```
 
-You can also embed plots, for example:
-
 ```{r}
-plot(cars)
+plot(cars) #以cars資料集畫出scatter plot(散佈圖)
 ```

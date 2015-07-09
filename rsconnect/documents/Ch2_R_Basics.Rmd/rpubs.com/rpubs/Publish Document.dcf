@@ -1,0 +1,7 @@
+name: Publish Document
+account: rpubs
+server: rpubs.com
+bundleId:
+        https://api.rpubs.com/api/v1/document/91677/6ff8db6f9cf14525bf64958d3bf95941
+url: http://rpubs.com/wadetsai/91677
+when: 1436423234.05909
