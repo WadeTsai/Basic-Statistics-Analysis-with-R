@@ -46,7 +46,22 @@ help(read.csv)
 ??read.csv
 ```
 
-* example (看函式的程式範例):
+* example (看function的程式範例):
 ```{r}
 example(read.table)
+```
+
+##安裝R的Package##
+1. 從RStudio介面安裝: <br>
+![Packages-->Install](screenshots/Install-Packages.png)
+
+2. 下指令安裝，並指定Repository(當預設的Repository沒有要求的Package或特定版本，而必須另外指定時):
+```{r}
+install.packages("rmarkdown", repos = "http://cran.us.r-project.org", type = "source")
+```
+
+3. 直接從GitHub安裝:
+```{r}
+require(devtools)
+install_github("wch/ggplot2")
 ```
