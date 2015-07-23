@@ -1,0 +1,7 @@
+---
+title: "Chapter 04: R data types & data manipulation"
+author: "蔡有為"
+date: "2015年7月21日"
+output: html_document
+---
+

@@ -1,0 +1,41 @@
+---
+title: "Uniform Distribution Accumulation"
+author: "蔡有為"
+date: "2015年7月24日"
+output: html_document
+---
+隨著x的累加，(x = 連續均勻分配)，機率密度分配會越來越像一個鐘形曲線。
+
+```{r}
+x <- seq(from = 0, to = 1, by = 0.0001)
+x1 <- sample(x, 10000, FALSE)
+d1 <- density(x1)
+plot(d1)
+polygon(d1, col = "red", border = "blue" )
+hist(x1, freq = FALSE, breaks = 15)
+
+x2 <- x1 + sample(x, 10000, FALSE)
+d2 <- density(x2)
+plot(d2)
+polygon(d2, col = "red", border = "blue" )
+hist(x2, freq= FALSE, breaks = 15)
+
+x3 <- x2 + sample(x, 10000, FALSE)
+d3 <- density(x3)
+plot(d3)
+polygon(d3, col = "red", border = "blue" )
+hist(x3, freq= FALSE, breaks = 15)
+
+x4 <- x3 + sample(x, 10000, FALSE)
+d4 <- density(x4)
+plot(d4)
+polygon(d4, col = "red", border = "blue" )
+hist(x4, freq= FALSE, breaks = 15)
+
+x5 <- x4 + sample(x, 10000, FALSE)
+d5 <- density(x5)
+plot(d5)
+polygon(d5, col = "red", border = "blue" )
+hist(x5, freq= FALSE, breaks = 15)
+
+```
